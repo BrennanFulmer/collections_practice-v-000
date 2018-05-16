@@ -36,7 +36,7 @@ describe 'collections practice' do
     end
   end
   
-      describe '#swap_elements_from_to 2' do
+      describe '#swap_elements_from_to - test 2' do
     it 'swap the supplied elements of an array' do
       expect(swap_elements_from_to(["a", "b", "c"],2,1)).to eq(["a", "c", "b"])
     end

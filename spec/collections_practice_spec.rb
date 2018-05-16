@@ -38,7 +38,7 @@ describe 'collections practice' do
   
       describe '#swap_elements_from_to 2' do
     it 'swap the supplied elements of an array' do
-      expect(swap_elements_from_to(["a", "b", "c"],2,1)).to eq(["c", "b", "a"])
+      expect(swap_elements_from_to(["a", "b", "c"],2,1)).to eq(["a", "c", "b"])
     end
   end
 
